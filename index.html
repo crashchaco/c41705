@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>MI PROYECTO</title>
+</head>
+
+<body>
+
+    <!-- LISTAS  -->
+    <!-- <ol>
+        <li>galeria</li>
+        <li>page4</li>
+        <li>page5</li>
+        <li>contacto</li>
+    </ol> -->
+    <ul>
+        <!-- ENLACES ABSOLUTOS -->
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./pages/galeria_imagenes.html">Galeria</a></li>
+        <li><a href="./pages/page_4.html">Page4</a></li>
+        <!-- ENLACE RELATIVO -->
+        <li><a href="https://www.coderhouse.com/">Nos fuimos a coder</a></li>
+        <!-- ENLACE INTERNO -->
+        <li><a href="./pages/page_4.html#elFondo">FONDO PAGE 4</a></li>
+    </ul>
+
+    <!-- TABLAS -->
+    <hr>
+    <table border="5px" cellspacing="20px">
+        <tr>
+            <th colspan="3">HEADER</th>
+            <!-- <th>TH COL 2</th>
+            <th>TH COL 3</th> -->
+        </tr>
+        <tr>
+            <td rowspan="2">MAIN</td>
+            <!-- <td>TD1 COL 2</td>
+            <td>TD1 COL 3</td> -->
+        </tr>
+        <tr>
+            <td "width=10px " "height=50px">ASIDE</td>
+
+        </tr>
+        <tr>
+            <td colspan="3">FOOTER</td>
+            <!-- <td>TD2 COL 2</td>
+            <td>TD2 COL 3</td> -->
+        </tr>
+    </table>
+
+    <hr>
+    <!-- FORMULARIOS -->
+
+
+
+
+    <form action="" method="post">
+
+        <fieldset>
+            <legend>NUESTRO FORMULARIO</legend>
+            <div>
+                <label for="Nombre">INGRESE NOMBRE</label>
+                <input type="text" id="Nombre" placeholder="Nombre" required>
+            </div>
+            <div>
+                <label for="EMAIL">INGRESE EMAIL</label>
+                <input type="email" id="EMAIL" placeholder="Ingrese Mail">
+            </div>
+            <div>
+                <label for="PASS">INGRESE CONTRASEÑA</label>
+                <input type="password" id="PASS">
+            </div>
+            <div>
+                Género
+                <br>
+                <label for="generoM">Masculino</label>
+                <input type="radio" name="genero" id="generoM" value="Masculino" checked>
+                <label for="generoF">Femenino</label>
+                <input type="radio" name="genero" id="generoF" value="Femenino">
+            </div>
+
+            <div>
+                <select name="" id="">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                </select>
+            </div>
+
+            <textarea name="" id="" cols="2" rows="2"></textarea>
+
+            <button>Enviar</button>
+            <input type="button" value="Enviar">
+            <input id="enviar" type="submit" value="Enviar">
+            <input id="reset" type="reset" value="Limpiar">
+        </fieldset>
+
+        <hr>
+
+        <!-- MULTIMEDIA -->
+
+        <img src="./assets/images/myface.jpg" alt="La cara del profesor Matias es horrible">
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/gWKKNnCc-hA" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        <video src=""></video>
+
+
+
+
+
+    </form>
+
+
+</body>
+
+</html>
